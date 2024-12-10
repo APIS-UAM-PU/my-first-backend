@@ -1,7 +1,7 @@
 # My first Backend
 > initial setup
 
-At this point you should be available to run the project with an available endpoint.
+At this point you should be able to run the project with an available endpoint.
 
 See [CHANGELOG](./CHANGELOG.md)
 
@@ -27,6 +27,6 @@ Now if you request in the browser or any http-request tool `http://localhost:300
 
 ```json
 {
-    message: "Hello World!"
+    "message": "Hello World!"
 }
 ```
