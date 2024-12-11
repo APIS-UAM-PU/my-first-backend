@@ -1,7 +1,7 @@
 # My first Backend
-> initial setup
+> dotenv config
 
-At this point you should be able to run the project with an available endpoint.
+At this point you should be able to run the project that is using `.env` to manage variables.
 
 See [CHANGELOG](./CHANGELOG.md)
 
@@ -18,12 +18,14 @@ Then install dependencies
 npm install
 ```
 
+Configure `.env` through the `.env.example`
+
 And finally run
 ```sh
 npm run dev
 ```
 
-Now if you request in the browser or any http-request tool `http://localhost:3000/`, you should get something like
+Now if you request in the browser or any http-request tool `http://localhost:<port>/`, you should get something like
 
 ```json
 {
